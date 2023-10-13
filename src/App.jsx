@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createContext } from 'react'
 import {Routes, Route, Link} from "react-router-dom"
 import Support from './Components/support'
-import TsParticles from './Components/TsParticles';
 import AboutUs from './Components/AboutUs';
 
 export const CardE = createContext()
