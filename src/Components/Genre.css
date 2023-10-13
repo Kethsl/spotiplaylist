@@ -1,0 +1,121 @@
+body{
+    
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #090909 0%, #320d36 74%);
+    
+}
+
+.border{
+
+    background-color: hsla(0,0%,100%,.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    border-radius: 15px;
+    text-align: center;
+    padding: 2vw; 
+    max-width: 800px;
+    margin: 0%;
+    box-shadow: inset 0 0 40px -10px rgb(255, 255, 255),inset 0 0 20px -20px rgba(0,0,0,.3),0 0 100px -10px rgba(50,50,100,.5),0 30px 60px -30px rgba(0,0,0,.3),inset 0 0 5px 1px rgba(0,0,0,.2),inset 0 0 2px 1px rgba(0,0,0,.1);
+    border-color: blue;
+
+
+}
+
+.genre{
+border-radius: 10px;
+background-color: rgb(239, 242, 242);
+border-color: darkorchid;
+border-width: 3px;
+margin: 10px;
+
+}
+
+.genre.selected {
+    background-color: #da1be4; /* Change to your desired color */
+    color: #fff; /* Change to your desired color */
+    border: 1px solid #580a77;
+    border-width: 8px; /* Change to your desired color */
+  }
+
+.genre:hover{
+    background:#b14ce8;
+    color:white
+    
+}
+
+.Submit{
+
+    background-color: #de2da3;
+   
+}
+
+.Submit:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    transform: translateY(-2px);
+  }
+  
+
+.Pick{
+    color: white;
+}
+
+
+
+.Card.card{
+
+    background-color: hsla(0,0%,100%,.5);
+    border-color: rgb(76, 22, 88);
+    box-shadow: inset 0 0 40px -10px rgb(255, 255, 255),inset 0 0 20px -20px rgba(0,0,0,.3),0 0 100px -10px rgba(50,50,100,.5),0 30px 60px -30px rgba(0,0,0,.3),inset 0 0 5px 1px rgba(0,0,0,.2),inset 0 0 2px 1px rgba(0,0,0,.1);
+    border-radius: 15px;
+}
+
+.card-title.h5{
+color: #ffffff;
+font-size: 50px;
+text-shadow: #090909;
+}
+
+.card-img-top{
+    border-radius: 15px;
+}
+
+.card-text{
+
+    color: rgb(198, 204, 209);
+    font-size: 40px;
+}
+
+.Mix{
+color: aliceblue;
+}
+
+.About{
+
+    color: white;
+    font-size: 70px;
+}
+
+.AboutUs{
+
+    color: white;
+    font-size: 50px;
+}
+
+.Support{
+    color: white;
+    font-size: 70px;
+}
+
+.Supportp{
+
+    color: white;
+    font-size: 50px; 
+}
+
+.headphones{
+   width: 150px;
+}
