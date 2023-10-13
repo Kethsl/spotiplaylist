@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import Playlist from './Playlist'
 import "../Components/Genre.css"
 import { createContext } from 'react'
-import tsParticles from './TsParticles'
+
 
 
 
