@@ -27,7 +27,7 @@ function Genre() {
             headers: {
                 'Content-Type': "application/x-www-form-urlencoded"
             },
-            body: "grant_type=client_credentials&client_id=" + process.env.VITE_REACT_APP_CLIENT_ID + '&client_secret=' + process.env.VITE_REACT_APP_CLIENT_SECRET
+            body: "grant_type=client_credentials&client_id=" + import.meta.env.VITE_REACT_APP_CLIENT_ID + '&client_secret=' + import.meta.env.VITE_REACT_APP_CLIENT_SECRET
         }
         fetch('https://accounts.spotify.com/api/token', authParem)
             .then((response) => response.json())
